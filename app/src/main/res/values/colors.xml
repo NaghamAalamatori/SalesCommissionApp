@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#FFFFFF</color> <!-- White -->
+    <color name="primary_dark">#E3F2FD</color> <!-- Light blue for subtle contrast -->
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#90CAF9</color> <!-- Blue for secondary elements -->
+    <color name="secondary_light">#E3F2FD</color> <!-- Lighter blue -->
+
+    <!-- Accent Color -->
+    <color name="accent">#00BCD4</color> <!-- Bold blue accent -->
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color> <!-- White -->
+    <color name="black">#000000</color> <!-- Black -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color> <!-- Dark gray for primary text -->
+    <color name="text_secondary">#37474F</color> <!-- Muted blue-gray for secondary text -->
+    <color name="text_on_dark">#FFFFFF</color> <!-- White text for dark backgrounds -->
+    <color name="text_on_light">#00BCD4</color> <!-- Dark gray text for light backgrounds -->
+
+
+    <!-- Divider Color -->
+    <color name="fallback">#F5F5F5</color> <!-- Neutral fallback -->
+    <color name="divider">#DDDDDD</color> <!-- Softer divider for light themes -->
+
+</resources>

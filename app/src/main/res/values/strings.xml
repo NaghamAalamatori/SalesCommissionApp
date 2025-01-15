@@ -1,0 +1,109 @@
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Commission App</string>
+    <string name="company_name">Sales App</string>
+    <string name="company_logo">Company Logo</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="enter_sales">Enter Sales Data</string>
+    <string name="calculate_commission">Calculate Commission</string>
+    <string name="view_reports">View Reports</string>
+    <string name="settings">Settings</string>
+
+    <!-- Sales Person Management -->
+    <string name="add_sales_person">Add Salesperson</string>
+    <string name="edit_sales_person">Edit Salesperson</string>
+    <string name="delete_sales_person">Delete Salesperson</string>
+    <string name="sales_person_photo">Salesperson Photo</string>
+    <string name="add_new_sales_person">Add New Salesperson</string>
+    <string name="edit_sales_person_title">Edit Salesperson</string>
+    <string name="manage_sales_persons">Manage Salespersons</string>
+    <string name="sales_person_added">Salesperson added successfully</string>
+    <string name="sales_person_updated">Salesperson updated successfully</string>
+    <string name="sales_person_details">Salesperson Details</string>
+
+    <!-- Regions -->
+    <string name="region">Region</string>
+    <string name="region_lebanon">Lebanon</string>
+    <string name="region_coastal">Coastal Region</string>
+    <string name="region_northern">Northern Region</string>
+    <string name="region_southern">Southern Region</string>
+    <string name="region_eastern">Eastern Region</string>
+    <string name="select_sales_region">Select Sales Region</string>
+    <string name="region_label">Region: %s</string>
+    <string name="home_region_format">Home Region: %s</string>
+
+    <!-- Sales Data Entry -->
+    <string name="enter_sales_data">Enter Sales Data</string>
+    <string name="sales_data">Sales Data</string>
+    <string name="sales_amount">Sales Amount</string>
+    <string name="lebanon_sales">Lebanon Sales</string>
+    <string name="coastal_sales">Coastal Region Sales</string>
+    <string name="northern_sales">Northern Region Sales</string>
+    <string name="southern_sales">Southern Region Sales</string>
+    <string name="eastern_sales">Eastern Region Sales</string>
+    <string name="regional_sales">Regional Sales</string>
+
+    <!-- Sales Formats -->
+    <string name="lebanon_sales_format">Lebanon: %s</string>
+    <string name="coastal_sales_format">Coastal Region: %s</string>
+    <string name="northern_sales_format">Northern Region: %s</string>
+    <string name="southern_sales_format">Southern Region: %s</string>
+    <string name="eastern_sales_format">Eastern Region: %s</string>
+
+    <!-- Form Fields -->
+    <string name="select_photo">Select Photo</string>
+    <string name="name">Name</string>
+    <string name="employee_number">Employee Number</string>
+    <string name="employee_number_format">Employee Number: %s</string>
+    <string name="delegate_number_format">Delegate Number: %s</string>
+    <string name="delegate_name_format">Delegate Name: %s</string>
+
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="save_sale">Save Sale</string>
+    <string name="save_sales">Save All Sales</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Messages -->
+    <string name="delete_confirmation">Are you sure you want to delete this salesperson?</string>
+    <string name="fill_all_fields">Please fill in all fields</string>
+    <string name="please_fill_all_fields">Please fill in all required fields</string>
+    <string name="sale_saved">Sales saved successfully</string>
+    <string name="invalid_amount">Please enter a valid amount</string>
+    <string name="no_sales_found">No sales found</string>
+    <string name="storage_permission_required">Storage permission is required to view photos</string>
+
+    <!-- Period Selection -->
+    <string name="select_period">Select Period</string>
+    <string name="select_month">Select Month</string>
+    <string name="select_year">Select Year</string>
+    <string name="month_format">Month: %d</string>
+    <string name="year_format">Year: %d</string>
+    <string name="sales_period_format">Period: %s %d</string>
+    <string name="registration_date_format">Registration Date: %s</string>
+    <string name="registration_date_label">Registration Date: %s</string>
+
+    <!-- Reports -->
+    <string name="view_sales_report">View Sales Report</string>
+    <string name="view_commission_report">View Commission Report</string>
+    <string name="sales_summary">Sales Summary</string>
+    <string name="commission_details">Commission Details</string>
+    <string name="commission_summary">Commission Summary</string>
+    <string name="total_sales">Total Sales: %1$s</string>
+    <string name="total_commission">Total Commission: $%1$s</string>
+    <string name="total_sales_format">Total Sales: %s LBP</string>
+    <string name="total_commission_format">Total Commission: %s LBP</string>
+    <string name="monthly_commission_format">Monthly Commission: %s</string>
+    <string name="commission_date_format">Commission Date: %s</string>
+    <string name="commission_amount_format">Commission Amount: %s</string>
+
+    <!-- Commission -->
+    <string name="duplicate_commission_title">Duplicate Commission</string>
+    <string name="duplicate_commission_message">A commission already exists for this salesperson. Do you want to replace it?</string>
+</resources>

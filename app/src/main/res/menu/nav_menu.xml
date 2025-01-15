@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage_sales_persons"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/manage_sales_persons"
+            android:titleTextColor="@color/text_on_light" />
+
+        <item
+            android:id="@+id/nav_sales_entry"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/enter_sales_data"
+            android:titleTextColor="@color/text_on_light" />
+
+        <item
+            android:id="@+id/nav_sales_report"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/view_sales_report"
+            android:titleTextColor="@color/text_on_light" />
+
+        <item
+            android:id="@+id/nav_commission_report"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/view_commission_report"
+            android:titleTextColor="@color/text_on_light" />
+    </group>
+</menu>

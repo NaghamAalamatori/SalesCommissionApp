@@ -1,0 +1,55 @@
+<resources>
+    <!-- Base application style -->
+    <style name="AppBaseStyle">
+        <!-- Adapts layout direction and text direction to user locale -->
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="AppTextStyle" parent="AppBaseStyle">
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="AppButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+            <!-- Dark Button Style -->
+            <style name="AppButtonStyleDark" parent="Widget.MaterialComponents.Button">
+                <item name="android:gravity">center</item>
+                <item name="android:textAlignment">center</item>
+                <item name="android:layout_gravity">center</item>
+                <item name="android:padding">16dp</item>
+                <item name="android:textSize">16sp</item>
+                <item name="backgroundTint">@color/primary_dark</item> <!-- Darker color -->
+                <item name="android:textColor">@color/white</item>
+            </style>
+
+            <!-- Input Style with Persistent Border -->
+            <style name="AppInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <item name="boxStrokeColor">@color/primary</item>
+                <item name="hintTextColor">@color/secondary</item>
+                <item name="boxStrokeWidth">2dp</item>
+                <item name="boxStrokeWidthFocused">2dp</item>
+                <item name="android:textColor">@color/text_primary</item>
+            </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/primary_dark</item> <!-- Accent color -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Primary text color -->
+        <item name="android:background">#FFFFFF</item> <!-- Background color -->
+    </style>
+
+</resources>
